@@ -3,17 +3,13 @@
 
 <head>
     <style>
-        body {
-            background-image: url(timg1 .jpg);
-        }
-        td,
+       td,
         tr {
             text-align: center;
             font-size: 2vmin;
             -webkit-border: 25px;
             border: 25px;
             border: 1px solid rgba(238, 238, 238, 0.61)
-                /*定义行列样式*/
         }
         td:hover {
             position: relative;
@@ -28,15 +24,12 @@
             text-align: center;
             -webkit-border: 25px;
             border: 25px;
-            /*定义样式*/
         }
         .cell>.detail {
             display: none;
-            /*cell下的类名叫detail元素 ，即表格隐藏*/
         }
         .cell>.detail.open {
-            display: block;
-            /*显示内表格的元素*/
+            display: block
             position: absolute;
             height: 5em;
             width: 11em;
