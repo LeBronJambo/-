@@ -3,9 +3,7 @@
 
 <head>
     <style>
-        body {
-            background-image: url(timg1 .jpg);
-        }
+        body 
         td,
         tr {
             text-align: center;
@@ -13,14 +11,12 @@
             -webkit-border: 25px;
             border: 25px;
             border: 1px solid rgba(238, 238, 238, 0.61)
-                /*定义行列样式*/
         }
         td:hover {
             position: relative;
             top: -2px;
             left: -2px;
             box-shadow: 3px 3px 18px rgba(38, 155, 170, 0.384);
-            /*鼠标移动幻影，即加阴影*/
         }
         .cell {
             height: 6em;
